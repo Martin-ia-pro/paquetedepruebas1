@@ -25,6 +25,6 @@ Una suma
 ## Examples
 
 ``` r
-suma(3+2)
-#> Error in suma(3 + 2): argument "y" is missing, with no default
+suma(3,2)
+#> [1] 5
 ```
