@@ -20,5 +20,6 @@ Sirve para sumar
 \examples{
 suma(3,2)
 suma("3",2)
+suma(-3,2)
 
 }

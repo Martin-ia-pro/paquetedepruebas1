@@ -11,6 +11,7 @@
 #' suma(-3,2)
 #'
 #' @returns Una suma
+#'
 #' @export
 suma <- function(x, y) {
   if(!is.numeric(x)|!is.numeric(y)) {
