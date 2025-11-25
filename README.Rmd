@@ -16,8 +16,8 @@ knitr::opts_chunk$set(
 # paquetedepruebas1
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/Martin-ia-pro/paquetedepruebas1/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Martin-ia-pro/paquetedepruebas1/actions/workflows/R-CMD-check.yaml)
+
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![R-CMD-check](https://github.com/Martin-ia-pro/paquetedepruebas1/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Martin-ia-pro/paquetedepruebas1/actions/workflows/R-CMD-check.yaml) 
 [![Codecov test coverage](https://codecov.io/gh/Martin-ia-pro/paquetedepruebas1/graph/badge.svg)](https://app.codecov.io/gh/Martin-ia-pro/paquetedepruebas1)
 <!-- badges: end -->
 
@@ -41,18 +41,6 @@ library(paquetedepruebas1)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
-
-```{r cars}
-summary(cars)
+```{r}
+suma(2,3)
 ```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
